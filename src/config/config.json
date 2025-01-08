@@ -1,0 +1,25 @@
+{
+	"development": {
+		"use_env_variable": false,
+		"DB": {
+			"port": 3306,
+			"username": "root",
+			"password": "",
+			"database": "labour_management_test",
+			"host": "localhost",
+			"dialect": "mysql",
+			"queueLimit": 0,
+			"connectionLimit": 0,
+			"logging": false,
+			"pool": {
+				"min": 10,
+				"max": 50
+			},
+			"dialectOptions": {
+				"decimalNumbers": true,
+				"maxPreparedStatements": 100
+			}
+		},
+		"API_BASE_URL": "http://localhost:4000/uploads"
+	}
+}
